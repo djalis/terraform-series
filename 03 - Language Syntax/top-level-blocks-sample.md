@@ -1,7 +1,7 @@
 
-#Block-1: **Terraform Settings Block**
+#Block-1: **Terraform Settings Block** #be careful with the version
 terraform {
-  required_version = "~> 1.0"         #be careful with the version
+  required_version = "~> 1.0"        
   required_providers {
     aws = {
       source  = "hashicorp/aws"
